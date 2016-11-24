@@ -2,7 +2,7 @@
 //  CreditManageAppUITests.swift
 //  CreditManageAppUITests
 //
-//  Created by Shingo Tawada on 2016/11/23.
+//  Created by Shingo Tawada on 2016/11/24.
 //  Copyright © 2016年 ieModeling2016-F. All rights reserved.
 //
 

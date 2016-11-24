@@ -2,7 +2,7 @@
 //  CreditManageAppTests.swift
 //  CreditManageAppTests
 //
-//  Created by Shingo Tawada on 2016/11/23.
+//  Created by Shingo Tawada on 2016/11/24.
 //  Copyright © 2016年 ieModeling2016-F. All rights reserved.
 //
 
@@ -28,7 +28,7 @@ class CreditManageAppTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }
