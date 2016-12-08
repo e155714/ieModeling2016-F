@@ -35,12 +35,27 @@
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M2q-b8-Q6J"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2d1-QA-KNp">
+                                <rect key="frame" x="105" y="310" width="204" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GI5-Wu-0q5">
+                                <rect key="frame" x="184" y="383" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="readcsv:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bv5-Aq-xmv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="label" destination="yz2-1G-Ejh" id="U0A-tR-RVi"/>
+                        <outlet property="printarray" destination="2d1-QA-KNp" id="eRo-9U-yQx"/>
+                        <outlet property="textarea" destination="2d1-QA-KNp" id="HUS-VH-vV3"/>
                         <outlet property="textfield" destination="R3i-vH-lFw" id="6k8-jH-R4a"/>
                     </connections>
                 </viewController>
