@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7201BC131E3DBD030074BEEB /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201BC121E3DBD030074BEEB /* secondViewController.swift */; };
 		723324AC1E2C93F600F9A190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723324AB1E2C93F600F9A190 /* AppDelegate.swift */; };
 		723324AE1E2C93F600F9A190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723324AD1E2C93F600F9A190 /* ViewController.swift */; };
 		723324B11E2C93F600F9A190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723324AF1E2C93F600F9A190 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7201BC121E3DBD030074BEEB /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		723324A81E2C93F600F9A190 /* mainapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mainapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		723324AB1E2C93F600F9A190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		723324AD1E2C93F600F9A190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				723324B71E2C93F600F9A190 /* LaunchScreen.storyboard */,
 				723324BA1E2C93F600F9A190 /* Info.plist */,
 				723324B21E2C93F600F9A190 /* mainapp.xcdatamodeld */,
+				7201BC121E3DBD030074BEEB /* secondViewController.swift */,
 			);
 			path = mainapp;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7201BC131E3DBD030074BEEB /* secondViewController.swift in Sources */,
 				723324AE1E2C93F600F9A190 /* ViewController.swift in Sources */,
 				723324B41E2C93F600F9A190 /* mainapp.xcdatamodeld in Sources */,
 				723324AC1E2C93F600F9A190 /* AppDelegate.swift in Sources */,
