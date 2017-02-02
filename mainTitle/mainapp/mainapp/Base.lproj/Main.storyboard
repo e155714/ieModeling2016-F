@@ -255,12 +255,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="取得単位" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdD-S0-NNT">
-                                <rect key="frame" x="119" y="105" width="203" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAe-jc-Qy2">
                                 <rect key="frame" x="26" y="20" width="34" height="30"/>
                                 <state key="normal" title="back"/>
@@ -293,6 +287,12 @@
                                     <segue destination="KuW-mC-Q5y" kind="modal" id="MHt-oa-n0d"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="取得科目一覧" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdD-S0-NNT">
+                                <rect key="frame" x="102" y="105" width="203" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -582,8 +582,8 @@
         <image name="title_logo.png" width="412" height="86"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fdq-a6-QR1"/>
-        <segue reference="KVM-Je-NAI"/>
+        <segue reference="mC3-Co-SQy"/>
         <segue reference="yYW-8Z-d6p"/>
+        <segue reference="fdq-a6-QR1"/>
     </inferredMetricsTieBreakers>
 </document>
